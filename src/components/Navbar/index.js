@@ -2,28 +2,26 @@ import React from 'react';
 import {
   Nav,
   NavLink,
-  Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink,
 } from './NavbarElements';
+
+import logo from '../../images/plantshedLogo.png'
   
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <Bars />
         <NavMenu>
-          <NavLink to='/' activeStyle>
-            PlantShed
+          <NavLink to='/' onClick='refresh' activeStyle>
+            <img src={logo} />
           </NavLink>
-          <NavLink to='/Products' activeStyle>
+          <NavLink to='/Products' onClick='refresh' activeStyle>
             Products
           </NavLink>
-          <NavLink to='/Countries' activeStyle>
+          <NavLink to='/Countries' onClick='refresh' activeStyle>
             Countries
           </NavLink>
-          <NavLink to='/About' activeStyle>
+          <NavLink to='/About' onClick='refresh' activeStyle>
             About
           </NavLink>
         </NavMenu>
