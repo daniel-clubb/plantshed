@@ -13,7 +13,7 @@ const Navbar = () => {
       <Nav>
         <NavMenu>
           <NavLink to='/' onClick='refresh' activeStyle>
-            <img src={logo} />
+            <img src={logo} alt="Plantshed logo"/>
           </NavLink>
           <NavLink to='/Products' onClick='refresh' activeStyle>
             Products
