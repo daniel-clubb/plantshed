@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function About() {
+export default function AboutUs() {
     return (
         <>
         <div>
-            <h1>About</h1>
+            <h1>About us</h1>
         </div>
         </>
     )
