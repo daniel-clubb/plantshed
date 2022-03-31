@@ -11,7 +11,7 @@ import "./App.css";
 import Checkout from "./components/Pages/Checkout";
 import Header from "./components/Header";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <div className="App">
@@ -29,16 +29,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
-
-/*<Form className="d-flex">
-<FormControl
-type="search"
-placeholder="Search"
-className="me-2"
-aria-label="Search"
-/>
-<Button variant="outline-success">Search</Button>
-</Form>
-*/
