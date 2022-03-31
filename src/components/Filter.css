@@ -1,0 +1,38 @@
+.filter {
+  width: fit-content;
+  border: 1px solid #e0e0e0;
+  border-left: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 180px;
+  height: 36px;
+  padding: 20px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  color: #fefefe;
+}
+
+.header {
+  background-color: #2cc076;
+}
+
+.footer {
+  background-color: #413a3c;
+}
+
+.contents {
+  width: 180px;
+  height: 110px;
+  margin: 30px 0 40px 0;
+}
+
+.option {
+  margin: 20px 0 20px 20px;
+}
