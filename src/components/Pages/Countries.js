@@ -1,4 +1,6 @@
 import React from "react";
+import bFlag from "../../images/Brazil.png";
+import eFlag from "../../images/Ethiopia.png";
 
 export default function Countries() {
     return (
@@ -11,8 +13,12 @@ export default function Countries() {
             </thead>
             <tbody>
                <tr>
-                    <td>Image Country1</td>
-                    <td>Image Country2</td>
+                    <td>
+                        <img src={bFlag} alt="Brazilian Flag"></img>    
+                    </td>                 
+                    <td>
+                        <img src={eFlag} alt="Ethiopian Flag"></img>
+                    </td>
                 </tr> 
                 <tr>
                     <td>Description Country1</td>
