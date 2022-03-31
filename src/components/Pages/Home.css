@@ -1,0 +1,10 @@
+main {
+  height: 100vh;
+  padding: 45px;
+  text-align: center;
+  position: relative;
+}
+
+.intro-text {
+  margin-top: 25px;
+}
