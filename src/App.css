@@ -1,12 +1,24 @@
 .products:hover {
-    background: grey;
+  background: grey;
 }
 .countries:hover {
-    background: grey;
+  background: grey;
 }
 .aboutus:hover {
-    background: grey;
+  background: grey;
 }
 .checkout:hover {
-    background: grey;
+  background: grey;
+}
+
+.me-auto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.nav-pages {
+  display: flex;
 }

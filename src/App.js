@@ -27,30 +27,33 @@ function App() {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link
-                    className="products"
-                    as={Link}
-                    to="/Products"
-                    exact="true"
-                  >
-                    Products
-                  </Nav.Link>
-                  <Nav.Link
-                    className="countries"
-                    as={Link}
-                    to="/Countries"
-                    exact="true"
-                  >
-                    Countries
-                  </Nav.Link>
-                  <Nav.Link
-                    className="aboutus"
-                    as={Link}
-                    to="/AboutUs"
-                    exact="true"
-                  >
-                    About Us
-                  </Nav.Link>
+                  <div className="nav-pages">
+                    <Nav.Link
+                      className="products"
+                      as={Link}
+                      to="/Products"
+                      exact="true"
+                    >
+                      Products
+                    </Nav.Link>
+                    <Nav.Link
+                      className="countries"
+                      as={Link}
+                      to="/Countries"
+                      exact="true"
+                    >
+                      Countries
+                    </Nav.Link>
+                    <Nav.Link
+                      className="aboutus"
+                      as={Link}
+                      to="/AboutUs"
+                      exact="true"
+                    >
+                      About Us
+                    </Nav.Link>
+                  </div>
+
                   <Nav.Link
                     className="checkout"
                     as={Link}
