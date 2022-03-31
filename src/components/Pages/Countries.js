@@ -1,9 +1,11 @@
 import React from "react";
 import bFlag from "../../images/Brazil.png";
 import eFlag from "../../images/Ethiopia.png";
+import './Countries.css'
 
 export default function Countries() {
     return (
+        <div className="countryTable">
         <table align="center">
             <thead>
                 <tr>
@@ -46,5 +48,6 @@ export default function Countries() {
                 </tr>
             </tbody>
         </table>
+        </div>
     )
 }
