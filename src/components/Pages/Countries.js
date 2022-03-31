@@ -4,11 +4,11 @@ import eFlag from "../../images/Ethiopia.png";
 
 export default function Countries() {
     return (
-        <table>
+        <table align="center">
             <thead>
                 <tr>
-                    <td>BRAZIL</td>
-                    <td>ETHIOPIA</td>
+                    <td align="center">BRAZIL</td>
+                    <td align="center">ETHIOPIA</td>
                 </tr>
             </thead>
             <tbody>
@@ -27,20 +27,20 @@ export default function Countries() {
                 <tr>
                     <td>
                         <button class="btn btn-primary btn-xs" ng-click="r.changeView('requests/edit/' + request.id)">
-                            <i class="fa fa-pencil-square-o"></i>Button1
+                            <i class="fa fa-pencil-square-o"></i>Brazilian Coffee
                         </button>
                         <button class="btn btn-primary btn-xs" ng-click="r.changeView('requests/edit/' + request.id)">
                             <i class="fa fa-step-backward"></i>
-                            <i class="fa fa-step-forward"></i>Button2
+                            <i class="fa fa-step-forward"></i>Brazilian Plant
                         </button>
                     </td>
                     <td>
                         <button class="btn btn-primary btn-xs" ng-click="r.changeView('requests/edit/' + request.id)">
-                            <i class="fa fa-pencil-square-o"></i>Button1
+                            <i class="fa fa-pencil-square-o"></i>Ethiopian Coffee
                         </button>
                         <button class="btn btn-primary btn-xs" ng-click="r.changeView('requests/edit/' + request.id)">
                         <i class="fa fa-step-backward"></i>
-                        <i class="fa fa-step-forward"></i>Button2
+                        <i class="fa fa-step-forward"></i>Ethiopian Coffee
                         </button>
                     </td>
                 </tr>
