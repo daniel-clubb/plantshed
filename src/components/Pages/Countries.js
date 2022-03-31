@@ -1,5 +1,5 @@
 import React from "react";
-import bFlag from "../../images/Brazil.png";
+import bFlag from "../../images/Liberia.png";
 import eFlag from "../../images/Ethiopia.png";
 import './Countries.css'
 
@@ -9,14 +9,14 @@ export default function Countries() {
         <table align="center">
             <thead>
                 <tr>
-                    <td align="center">BRAZIL</td>
+                    <td align="center">LIBERIA</td>
                     <td align="center">ETHIOPIA</td>
                 </tr>
             </thead>
             <tbody>
                <tr>
                     <td>
-                        <img src={bFlag} alt="Brazilian Flag"></img>    
+                        <img src={bFlag} alt="Liberian Flag"></img>    
                     </td>                 
                     <td>
                         <img src={eFlag} alt="Ethiopian Flag"></img>
