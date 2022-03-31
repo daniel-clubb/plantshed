@@ -11,12 +11,10 @@
   background: grey;
 }
 
-.me-auto {
+.checkout {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  width: 100%;
 }
 
 .nav-pages {
