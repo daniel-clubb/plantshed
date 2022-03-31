@@ -16,9 +16,15 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "cypress open",
+=======
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+>>>>>>> 8fbac80e2cad668cb0926eb555b9b034698ebc3f
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
